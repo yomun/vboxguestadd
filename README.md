@@ -4,7 +4,7 @@ Help for 'install Guest Additions' on VirtualBox's Linux Virtual Machine /<br>
 <br>
 $ wget https://github.com/yomun/vboxguestadd/raw/master/virtualbox.sh<br>
 <br>
-#### VBOX_VER="5.2.10"<br>
+#### VBOX_VER="5.2.22"<br>
 http://download.virtualbox.org/virtualbox<br>
 $ sed -i 's/VBOX_VER="5.2.10"/VBOX_VER="<LATEST_VBOXGuestAdditions_VERSION>"/' virtualbox.sh<br>
 
