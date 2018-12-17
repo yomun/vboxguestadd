@@ -6,7 +6,7 @@ $ wget https://github.com/yomun/vboxguestadd/raw/master/virtualbox.sh<br>
 <br>
 #### VBOX_VER="5.2.22"<br>
 http://download.virtualbox.org/virtualbox<br>
-$ sed -i 's/VBOX_VER="5.2.10"/VBOX_VER="<LATEST_VBOXGuestAdditions_VERSION>"/' virtualbox.sh<br>
+$ sed -i 's/VBOX_VER="5.2.22"/VBOX_VER="<LATEST_VBOXGuestAdditions_VERSION>"/' virtualbox.sh<br>
 
 #### USER_ID="yomun"<br>
 $ sed -i 's/USER_ID="yomun"/USER_ID="<YOUR_USER_ID>"/' virtualbox.sh<br>
