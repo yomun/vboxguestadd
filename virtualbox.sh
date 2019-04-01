@@ -11,7 +11,7 @@
 # sudo bash virtualbox.sh
 
 # 主机现在所用的 VirtualBox 版本号
-VBOX_VER="5.2.22"
+VBOX_VER="6.0.4"
 
 # 用户 ID
 USER_ID="yomun"
