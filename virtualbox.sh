@@ -108,7 +108,7 @@ then
 	sudo usermod -aG vboxsf ${USER_ID}
 	sudo chmod -R 755 /media
 
-elif [ `echo ${OS_RELEASE} | grep y-c "mageia"` -gt 0 ]
+elif [ `echo ${OS_RELEASE} | grep -c "mageia"` -gt 0 ]
 then
 	urpmi kernel-devel
 	urpmi gcc
